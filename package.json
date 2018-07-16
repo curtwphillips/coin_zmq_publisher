@@ -1,0 +1,25 @@
+{
+  "name": "coin_zmq_broadcaster",
+  "version": "1.0.0",
+  "description": "blockchain data broadcasting system",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "DEBUG=app* nodemon index",
+    "start": "node index",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "es6-promisify": "^4.1.0",
+    "moment": "^2.21.0",
+    "nodemailer": "^4.6.3",
+    "stack-trace": "0.0.10",
+    "winston": "^2.4.1",
+    "zmq": "^2.15.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
